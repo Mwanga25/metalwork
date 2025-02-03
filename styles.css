@@ -159,3 +159,16 @@ footer {
     flex-direction: column;
     transform: rotateY(180deg); /* Geuza upande wa nyuma */
 }
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-links a img {
+  transition: transform 0.3s ease;
+}
+
+.social-links a img:hover {
+  transform: scale(1.2);
+}
